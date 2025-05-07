@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  font-family: 'League Gothic';
+  background-color: white;
+}
+
+header {
+  background-color: #5676ff;
+  padding: 20px;
+  color: white;
+  font-size: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header div a {
+  text-decoration: none;
+  color: inherit;
+}
+
+header nav a {
+  margin-left: 20px;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header nav a:hover {
+  color: black;
+  transition: color 0.3s ease;
+}
+
+.section {
+  padding: 50px;
+  text-align: center;
+}
+
+.Ro {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.Ro img, .projeto-img {
+  width: 300px;
+  border-radius: 20px;
+}
+
+.card {
+  background-color: #5676ff;
+  color: white;
+  padding: 30px;
+  border-radius: 30px;
+  width: 300px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.projetos, .curriculo {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  flex-wrap: wrap;
+}
+
+.projeto-img {
+  background-color: transparent;
+  height: auto;
+  display: block;
+  align-items: unset;
+  justify-content: unset;
+  font-size: unset;
+  color: unset;
+  font-weight: unset;
+}
+
+footer {
+  background-color: rgb(4, 3, 23);
+  color: #5676ff;
+  text-align: center;
+  padding: 40px;
+}
+
+.contato-icons {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 20px;
+}
+
+.contato div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
